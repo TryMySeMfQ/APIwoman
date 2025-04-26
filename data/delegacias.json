@@ -1,0 +1,62 @@
+[
+    {
+      "nome": "Delegacia da Mulher - São Paulo",
+      "endereco": "Rua Frei Caneca, 1.332 - Consolação",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": "(11) 1234-5678",
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "dataFundacao": "1985-08-10",
+      "horarioFuncionamento": "08h às 18h (seg a sex)",
+      "servicos": ["Atendimento psicológico", "Acompanhamento jurídico"]
+    },
+    {
+      "nome": "Delegacia da Mulher - Rio de Janeiro",
+      "endereco": "Rua Professor Clementino Fraga, 77 - Cidade Nova",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "telefone": "(21) 9876-5432",
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "dataFundacao": "1992-03-15",
+      "horarioFuncionamento": "24h (todos os dias)",
+      "servicos": ["Plantão 24h", "Acolhimento emergencial"]
+    },
+    {
+      "nome": "Centro de Apoio à Mulher - Belo Horizonte",
+      "endereco": "Av. Afonso Pena, 1.500 - Centro",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "telefone": "(31) 2468-1357",
+      "lat": -19.9167,
+      "lng": -43.9345,
+      "dataFundacao": "2000-11-25",
+      "horarioFuncionamento": "09h às 17h (seg a sex)",
+      "servicos": ["Orientação social", "Cursos de capacitação"]
+    },
+    {
+      "nome": "Delegacia da Mulher - Porto Alegre",
+      "endereco": "Av. João Pessoa, 1.000 - Centro Histórico",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "telefone": "(51) 3698-7412",
+      "lat": -30.0346,
+      "lng": -51.2177,
+      "dataFundacao": "1998-05-30",
+      "horarioFuncionamento": "08h às 19h (seg a sex)",
+      "servicos": ["Grupos de apoio", "Atendimento infantil"]
+    },
+    {
+      "nome": "Casa da Mulher Brasileira - Brasília",
+      "endereco": "Setor de Grandes Áreas Norte 601",
+      "cidade": "Brasília",
+      "estado": "DF",
+      "telefone": "(61) 3546-9821",
+      "lat": -15.7942,
+      "lng": -47.8825,
+      "dataFundacao": "2015-02-10",
+      "horarioFuncionamento": "07h às 22h (todos os dias)",
+      "servicos": ["Abrigo temporário", "Atendimento multidisciplinar"]
+    }
+  ]

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aplicação de segurança feminina com recursos de emergência e apoio">
+  <title>Segurança Feminina - Recursos e Apoio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <h1><i class="fas fa-shield-alt"></i> Segurança Feminina</h1>
+      <p class="subtitle">Recursos e apoio para mulheres em situação de risco</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="featured-section">
+      <div class="card emergency-contacts">
+        <div class="card-header">
+          <i class="fas fa-phone-alt card-icon"></i>
+          <h2>Contatos de Emergência</h2>
+        </div>
+        <p>Lista de serviços essenciais para situações de risco</p>
+        <button class="btn btn-primary" id="btn-carregar-contatos">
+          <i class="fas fa-sync-alt"></i> Carregar Contatos
+        </button>
+        <div class="card-content" id="contatos-list"></div>
+      </div>
+
+      <div class="card safety-tips">
+        <div class="card-header">
+          <i class="fas fa-lightbulb card-icon"></i>
+          <h2>Dicas de Segurança</h2>
+        </div>
+        <p>Orientações importantes para sua proteção</p>
+        <button class="btn btn-secondary" id="btn-carregar-dicas">
+          <i class="fas fa-sync-alt"></i> Carregar Dicas
+        </button>
+        <ul class="card-content" id="dicas-list"></ul>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <a href="/legado" class="btn btn-map" id="btn-ver-mapa">
+        <i class="fas fa-map-marked-alt"></i> Ver Mapa de Delegacias
+      </a>
+    </section>
+
+    <section class="quick-actions">
+      <h2>Ações Rápidas</h2>
+      <div class="action-buttons">
+        <button class="action-btn" id="btn-compartilhar-local">
+          <i class="fas fa-location-arrow"></i> Compartilhar Localização
+        </button>
+        <button class="action-btn" id="btn-protocolo">
+          <i class="fas fa-first-aid"></i> Protocolo de Emergência
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>© 2023 Segurança Feminina - Todos os direitos reservados</p>
+      <div class="footer-links">
+        <a href="#" id="link-apoio"><i class="fab fa-whatsapp"></i> Apoio</a>
+        <a href="#" id="link-sobre"><i class="fas fa-info-circle"></i> Sobre</a>
+        <a href="#" id="link-privacidade"><i class="fas fa-lock"></i> Privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
